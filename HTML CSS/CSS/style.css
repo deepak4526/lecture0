@@ -1,0 +1,29 @@
+body {
+	background: 0000;
+	text-align: center;
+}
+
+
+p{
+	background: lightgreen;
+	border-radius:2px;
+	width:50%;
+	color: default;
+
+}
+
+
+#main-title{
+	color: 0000;
+}
+
+.aclass{
+	color:0001;
+	text-align: center;
+}
+
+img{
+	height:50%; 
+	width:50%;
+	border-radius:10px;
+}
