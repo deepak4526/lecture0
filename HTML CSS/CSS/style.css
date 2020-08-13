@@ -1,29 +1,121 @@
 body {
-	background: 0000;
-	text-align: center;
+	background:lightgreen;
+	animation-fill-mode: forwards;
+	width:100%;
+}
+
+.grid, .faltu{
+	
+	display:flex;
+	flex-wrap: wrap;
 }
 
 
-p{
-	background: lightgreen;
-	border-radius:2px;
+.p1{
 	width:50%;
-	color: default;
-
+	margin-left:1%;
 }
+
 
 
 #main-title{
 	color: 0000;
 }
 
-.aclass{
-	color:0001;
-	text-align: center;
+
+.container{
+  position: relative;
+  text-align: center;
 }
 
-img{
-	height:50%; 
-	width:50%;
-	border-radius:10px;
+
+.h1{
+	text-align:center;
 }
+
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:60px;
+  font-style: italic;
+  font-weight:bold;
+  color:white;
+}
+
+
+#heading{
+	text-align:center;
+}
+
+
+.Buttons{
+	border-color: white;
+	margin-left:30%;
+	margin-top:2%;
+}
+.b1, .b2, .b3, .b4{
+	background-color:#3dd4d4;
+}
+
+
+.fa {
+	border-radius:4px;
+  padding: 10px;
+  font-size: 20px;
+  width: 15px;
+  height:15px;
+  text-align: center;
+  text-decoration: none;
+ margin-left:25%;
+}
+
+.fa-facebook {
+	margin-left:8px;
+  background:grey;
+  color: black;
+}
+
+.fa-instagram {
+  background: grey;
+  color: black;
+}
+
+
+
+.faltu > div {
+	font-size: 20px;
+
+	width: 45%;
+	padding:20px;
+}
+
+
+.address{
+	background-color:#8193cc;
+	font-size:30px;
+}
+#address{
+	margin-left:10%;
+	margin-top:2%;
+}
+
+#form{
+	margin:2%;
+	text-align:center;
+	font-size:30px;
+}
+
+.p3{
+	font-weight:bold;
+}
+
+textarea{
+	border-radius:5px;
+}
+
+
+/*comments*/
+
