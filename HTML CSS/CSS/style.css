@@ -3,6 +3,9 @@ body {
 	animation-fill-mode: forwards;
 	width:100%;
 }
+.grid{
+	background-color:lightblue;
+}
 
 .grid, .faltu{
 	
