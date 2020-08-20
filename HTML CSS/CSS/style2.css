@@ -30,3 +30,16 @@ img{
 	.faltu>div{
 		width:30%;
 	}}
+
+.p1{
+	width:45%;
+	margin-left:1%;
+}
+
+.Buttons{
+	margin-left:30%;
+	margin-top:4%;
+}
+.b1, .b2, .b3{
+	background-color:#3dd4d4;
+}
