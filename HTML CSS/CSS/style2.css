@@ -16,3 +16,20 @@ img{
 	
 	color: default;
 }
+.grid, .faltu{
+	display:flex;
+	flex-warap:wrap;
+}
+
+.grid>div{
+	margin:10px;
+	padding:10px;
+}
+.faltu>div{
+	margin:10px
+}
+
+@media (min-width:800px){
+	.faltu>div{
+		width:30%;
+	}}
